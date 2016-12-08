@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B1D0BF1DF82BD700FF52ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0BE1DF82BD700FF52ED /* main.m */; };
+		24B1D0C21DF82BD700FF52ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0C11DF82BD700FF52ED /* AppDelegate.m */; };
+		24B1D0C51DF82BD700FF52ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0C41DF82BD700FF52ED /* ViewController.m */; };
+		24B1D0C81DF82BD800FF52ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D0C61DF82BD800FF52ED /* Main.storyboard */; };
+		24B1D0CA1DF82BD800FF52ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D0C91DF82BD800FF52ED /* Assets.xcassets */; };
+		24B1D0CD1DF82BD800FF52ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D0CB1DF82BD800FF52ED /* LaunchScreen.storyboard */; };
+		24B1D0D81DF82BD800FF52ED /* ZYImageLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0D71DF82BD800FF52ED /* ZYImageLabelViewTests.m */; };
+		24B1D0E31DF82BD800FF52ED /* ZYImageLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0E21DF82BD800FF52ED /* ZYImageLabelViewUITests.m */; };
+		24B1D0F21DF82BEA00FF52ED /* ZYImageLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0F11DF82BEA00FF52ED /* ZYImageLabelView.m */; };
+		24B1D10E1DF82F9800FF52ED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24B1D0F41DF82F9800FF52ED /* Info.plist */; };
+		24B1D10F1DF82F9800FF52ED /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0F61DF82F9800FF52ED /* MASCompositeConstraint.m */; };
+		24B1D1101DF82F9800FF52ED /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0F91DF82F9800FF52ED /* MASConstraint.m */; };
+		24B1D1111DF82F9800FF52ED /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0FB1DF82F9800FF52ED /* MASConstraintMaker.m */; };
+		24B1D1121DF82F9800FF52ED /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D0FD1DF82F9800FF52ED /* MASLayoutConstraint.m */; };
+		24B1D1131DF82F9800FF52ED /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D1011DF82F9800FF52ED /* MASViewAttribute.m */; };
+		24B1D1141DF82F9800FF52ED /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D1031DF82F9800FF52ED /* MASViewConstraint.m */; };
+		24B1D1151DF82F9800FF52ED /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D1051DF82F9800FF52ED /* NSArray+MASAdditions.m */; };
+		24B1D1161DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D1081DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		24B1D1171DF82F9800FF52ED /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D10A1DF82F9800FF52ED /* View+MASAdditions.m */; };
+		24B1D1181DF82F9800FF52ED /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B1D10D1DF82F9800FF52ED /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B1D0D41DF82BD800FF52ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B1D0B21DF82BD700FF52ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B1D0B91DF82BD700FF52ED;
+			remoteInfo = ZYImageLabelView;
+		};
+		24B1D0DF1DF82BD800FF52ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B1D0B21DF82BD700FF52ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B1D0B91DF82BD700FF52ED;
+			remoteInfo = ZYImageLabelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B1D0BA1DF82BD700FF52ED /* ZYImageLabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYImageLabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B1D0BE1DF82BD700FF52ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24B1D0C01DF82BD700FF52ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		24B1D0C11DF82BD700FF52ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		24B1D0C31DF82BD700FF52ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24B1D0C41DF82BD700FF52ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24B1D0C71DF82BD800FF52ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24B1D0C91DF82BD800FF52ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24B1D0CC1DF82BD800FF52ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24B1D0CE1DF82BD800FF52ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B1D0D31DF82BD800FF52ED /* ZYImageLabelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYImageLabelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B1D0D71DF82BD800FF52ED /* ZYImageLabelViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageLabelViewTests.m; sourceTree = "<group>"; };
+		24B1D0D91DF82BD800FF52ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B1D0DE1DF82BD800FF52ED /* ZYImageLabelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYImageLabelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B1D0E21DF82BD800FF52ED /* ZYImageLabelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYImageLabelViewUITests.m; sourceTree = "<group>"; };
+		24B1D0E41DF82BD800FF52ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B1D0F01DF82BEA00FF52ED /* ZYImageLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYImageLabelView.h; sourceTree = "<group>"; };
+		24B1D0F11DF82BEA00FF52ED /* ZYImageLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYImageLabelView.m; sourceTree = "<group>"; };
+		24B1D0F41DF82F9800FF52ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B1D0F51DF82F9800FF52ED /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		24B1D0F61DF82F9800FF52ED /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		24B1D0F71DF82F9800FF52ED /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		24B1D0F81DF82F9800FF52ED /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		24B1D0F91DF82F9800FF52ED /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		24B1D0FA1DF82F9800FF52ED /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		24B1D0FB1DF82F9800FF52ED /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		24B1D0FC1DF82F9800FF52ED /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		24B1D0FD1DF82F9800FF52ED /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		24B1D0FE1DF82F9800FF52ED /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		24B1D0FF1DF82F9800FF52ED /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		24B1D1001DF82F9800FF52ED /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		24B1D1011DF82F9800FF52ED /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		24B1D1021DF82F9800FF52ED /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		24B1D1031DF82F9800FF52ED /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		24B1D1041DF82F9800FF52ED /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		24B1D1051DF82F9800FF52ED /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		24B1D1061DF82F9800FF52ED /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24B1D1071DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		24B1D1081DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		24B1D1091DF82F9800FF52ED /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		24B1D10A1DF82F9800FF52ED /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		24B1D10B1DF82F9800FF52ED /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		24B1D10C1DF82F9800FF52ED /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		24B1D10D1DF82F9800FF52ED /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B1D0B71DF82BD700FF52ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0D01DF82BD800FF52ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0DB1DF82BD800FF52ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B1D0B11DF82BD700FF52ED = {
+			isa = PBXGroup;
+			children = (
+				24B1D0BC1DF82BD700FF52ED /* ZYImageLabelView */,
+				24B1D0D61DF82BD800FF52ED /* ZYImageLabelViewTests */,
+				24B1D0E11DF82BD800FF52ED /* ZYImageLabelViewUITests */,
+				24B1D0BB1DF82BD700FF52ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B1D0BB1DF82BD700FF52ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0BA1DF82BD700FF52ED /* ZYImageLabelView.app */,
+				24B1D0D31DF82BD800FF52ED /* ZYImageLabelViewTests.xctest */,
+				24B1D0DE1DF82BD800FF52ED /* ZYImageLabelViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B1D0BC1DF82BD700FF52ED /* ZYImageLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0F31DF82F9800FF52ED /* Masonry */,
+				24B1D0C01DF82BD700FF52ED /* AppDelegate.h */,
+				24B1D0C11DF82BD700FF52ED /* AppDelegate.m */,
+				24B1D0C31DF82BD700FF52ED /* ViewController.h */,
+				24B1D0C41DF82BD700FF52ED /* ViewController.m */,
+				24B1D0F01DF82BEA00FF52ED /* ZYImageLabelView.h */,
+				24B1D0F11DF82BEA00FF52ED /* ZYImageLabelView.m */,
+				24B1D0C61DF82BD800FF52ED /* Main.storyboard */,
+				24B1D0C91DF82BD800FF52ED /* Assets.xcassets */,
+				24B1D0CB1DF82BD800FF52ED /* LaunchScreen.storyboard */,
+				24B1D0CE1DF82BD800FF52ED /* Info.plist */,
+				24B1D0BD1DF82BD700FF52ED /* Supporting Files */,
+			);
+			path = ZYImageLabelView;
+			sourceTree = "<group>";
+		};
+		24B1D0BD1DF82BD700FF52ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0BE1DF82BD700FF52ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24B1D0D61DF82BD800FF52ED /* ZYImageLabelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0D71DF82BD800FF52ED /* ZYImageLabelViewTests.m */,
+				24B1D0D91DF82BD800FF52ED /* Info.plist */,
+			);
+			path = ZYImageLabelViewTests;
+			sourceTree = "<group>";
+		};
+		24B1D0E11DF82BD800FF52ED /* ZYImageLabelViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0E21DF82BD800FF52ED /* ZYImageLabelViewUITests.m */,
+				24B1D0E41DF82BD800FF52ED /* Info.plist */,
+			);
+			path = ZYImageLabelViewUITests;
+			sourceTree = "<group>";
+		};
+		24B1D0F31DF82F9800FF52ED /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				24B1D0F41DF82F9800FF52ED /* Info.plist */,
+				24B1D0F51DF82F9800FF52ED /* MASCompositeConstraint.h */,
+				24B1D0F61DF82F9800FF52ED /* MASCompositeConstraint.m */,
+				24B1D0F71DF82F9800FF52ED /* MASConstraint+Private.h */,
+				24B1D0F81DF82F9800FF52ED /* MASConstraint.h */,
+				24B1D0F91DF82F9800FF52ED /* MASConstraint.m */,
+				24B1D0FA1DF82F9800FF52ED /* MASConstraintMaker.h */,
+				24B1D0FB1DF82F9800FF52ED /* MASConstraintMaker.m */,
+				24B1D0FC1DF82F9800FF52ED /* MASLayoutConstraint.h */,
+				24B1D0FD1DF82F9800FF52ED /* MASLayoutConstraint.m */,
+				24B1D0FE1DF82F9800FF52ED /* Masonry.h */,
+				24B1D0FF1DF82F9800FF52ED /* MASUtilities.h */,
+				24B1D1001DF82F9800FF52ED /* MASViewAttribute.h */,
+				24B1D1011DF82F9800FF52ED /* MASViewAttribute.m */,
+				24B1D1021DF82F9800FF52ED /* MASViewConstraint.h */,
+				24B1D1031DF82F9800FF52ED /* MASViewConstraint.m */,
+				24B1D1041DF82F9800FF52ED /* NSArray+MASAdditions.h */,
+				24B1D1051DF82F9800FF52ED /* NSArray+MASAdditions.m */,
+				24B1D1061DF82F9800FF52ED /* NSArray+MASShorthandAdditions.h */,
+				24B1D1071DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.h */,
+				24B1D1081DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.m */,
+				24B1D1091DF82F9800FF52ED /* View+MASAdditions.h */,
+				24B1D10A1DF82F9800FF52ED /* View+MASAdditions.m */,
+				24B1D10B1DF82F9800FF52ED /* View+MASShorthandAdditions.h */,
+				24B1D10C1DF82F9800FF52ED /* ViewController+MASAdditions.h */,
+				24B1D10D1DF82F9800FF52ED /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B1D0B91DF82BD700FF52ED /* ZYImageLabelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B1D0E71DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelView" */;
+			buildPhases = (
+				24B1D0B61DF82BD700FF52ED /* Sources */,
+				24B1D0B71DF82BD700FF52ED /* Frameworks */,
+				24B1D0B81DF82BD700FF52ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYImageLabelView;
+			productName = ZYImageLabelView;
+			productReference = 24B1D0BA1DF82BD700FF52ED /* ZYImageLabelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24B1D0D21DF82BD800FF52ED /* ZYImageLabelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B1D0EA1DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelViewTests" */;
+			buildPhases = (
+				24B1D0CF1DF82BD800FF52ED /* Sources */,
+				24B1D0D01DF82BD800FF52ED /* Frameworks */,
+				24B1D0D11DF82BD800FF52ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B1D0D51DF82BD800FF52ED /* PBXTargetDependency */,
+			);
+			name = ZYImageLabelViewTests;
+			productName = ZYImageLabelViewTests;
+			productReference = 24B1D0D31DF82BD800FF52ED /* ZYImageLabelViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24B1D0DD1DF82BD800FF52ED /* ZYImageLabelViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B1D0ED1DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelViewUITests" */;
+			buildPhases = (
+				24B1D0DA1DF82BD800FF52ED /* Sources */,
+				24B1D0DB1DF82BD800FF52ED /* Frameworks */,
+				24B1D0DC1DF82BD800FF52ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B1D0E01DF82BD800FF52ED /* PBXTargetDependency */,
+			);
+			name = ZYImageLabelViewUITests;
+			productName = ZYImageLabelViewUITests;
+			productReference = 24B1D0DE1DF82BD800FF52ED /* ZYImageLabelViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B1D0B21DF82BD700FF52ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "毛汉卿";
+				TargetAttributes = {
+					24B1D0B91DF82BD700FF52ED = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					24B1D0D21DF82BD800FF52ED = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24B1D0B91DF82BD700FF52ED;
+					};
+					24B1D0DD1DF82BD800FF52ED = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24B1D0B91DF82BD700FF52ED;
+					};
+				};
+			};
+			buildConfigurationList = 24B1D0B51DF82BD700FF52ED /* Build configuration list for PBXProject "ZYImageLabelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B1D0B11DF82BD700FF52ED;
+			productRefGroup = 24B1D0BB1DF82BD700FF52ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B1D0B91DF82BD700FF52ED /* ZYImageLabelView */,
+				24B1D0D21DF82BD800FF52ED /* ZYImageLabelViewTests */,
+				24B1D0DD1DF82BD800FF52ED /* ZYImageLabelViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B1D0B81DF82BD700FF52ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B1D10E1DF82F9800FF52ED /* Info.plist in Resources */,
+				24B1D0CD1DF82BD800FF52ED /* LaunchScreen.storyboard in Resources */,
+				24B1D0CA1DF82BD800FF52ED /* Assets.xcassets in Resources */,
+				24B1D0C81DF82BD800FF52ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0D11DF82BD800FF52ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0DC1DF82BD800FF52ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B1D0B61DF82BD700FF52ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B1D1111DF82F9800FF52ED /* MASConstraintMaker.m in Sources */,
+				24B1D0C51DF82BD700FF52ED /* ViewController.m in Sources */,
+				24B1D0C21DF82BD700FF52ED /* AppDelegate.m in Sources */,
+				24B1D1101DF82F9800FF52ED /* MASConstraint.m in Sources */,
+				24B1D1181DF82F9800FF52ED /* ViewController+MASAdditions.m in Sources */,
+				24B1D1121DF82F9800FF52ED /* MASLayoutConstraint.m in Sources */,
+				24B1D1151DF82F9800FF52ED /* NSArray+MASAdditions.m in Sources */,
+				24B1D1141DF82F9800FF52ED /* MASViewConstraint.m in Sources */,
+				24B1D1131DF82F9800FF52ED /* MASViewAttribute.m in Sources */,
+				24B1D1171DF82F9800FF52ED /* View+MASAdditions.m in Sources */,
+				24B1D0F21DF82BEA00FF52ED /* ZYImageLabelView.m in Sources */,
+				24B1D0BF1DF82BD700FF52ED /* main.m in Sources */,
+				24B1D10F1DF82F9800FF52ED /* MASCompositeConstraint.m in Sources */,
+				24B1D1161DF82F9800FF52ED /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0CF1DF82BD800FF52ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B1D0D81DF82BD800FF52ED /* ZYImageLabelViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B1D0DA1DF82BD800FF52ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B1D0E31DF82BD800FF52ED /* ZYImageLabelViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B1D0D51DF82BD800FF52ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B1D0B91DF82BD700FF52ED /* ZYImageLabelView */;
+			targetProxy = 24B1D0D41DF82BD800FF52ED /* PBXContainerItemProxy */;
+		};
+		24B1D0E01DF82BD800FF52ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B1D0B91DF82BD700FF52ED /* ZYImageLabelView */;
+			targetProxy = 24B1D0DF1DF82BD800FF52ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24B1D0C61DF82BD800FF52ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B1D0C71DF82BD800FF52ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24B1D0CB1DF82BD800FF52ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B1D0CC1DF82BD800FF52ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B1D0E51DF82BD800FF52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24B1D0E61DF82BD800FF52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B1D0E81DF82BD800FF52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYImageLabelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		24B1D0E91DF82BD800FF52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYImageLabelView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		24B1D0EB1DF82BD800FF52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYImageLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYImageLabelView.app/ZYImageLabelView";
+			};
+			name = Debug;
+		};
+		24B1D0EC1DF82BD800FF52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYImageLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYImageLabelView.app/ZYImageLabelView";
+			};
+			name = Release;
+		};
+		24B1D0EE1DF82BD800FF52ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYImageLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYImageLabelView;
+			};
+			name = Debug;
+		};
+		24B1D0EF1DF82BD800FF52ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYImageLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.ZYImageLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYImageLabelView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B1D0B51DF82BD700FF52ED /* Build configuration list for PBXProject "ZYImageLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B1D0E51DF82BD800FF52ED /* Debug */,
+				24B1D0E61DF82BD800FF52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B1D0E71DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B1D0E81DF82BD800FF52ED /* Debug */,
+				24B1D0E91DF82BD800FF52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24B1D0EA1DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B1D0EB1DF82BD800FF52ED /* Debug */,
+				24B1D0EC1DF82BD800FF52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24B1D0ED1DF82BD800FF52ED /* Build configuration list for PBXNativeTarget "ZYImageLabelViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B1D0EE1DF82BD800FF52ED /* Debug */,
+				24B1D0EF1DF82BD800FF52ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B1D0B21DF82BD700FF52ED /* Project object */;
+}
